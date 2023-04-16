@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --neon-green: #39FF14;
+  --hot-pink: #FF69B4;
+  --electric-blue: #00FFFF;
+  --acid-yellow: #F0FF00;
+  --bright-purple: #BF00FF;
+  --electric-orange: #FFA500;
+  --fluorescent-red: #FF1493;
+  --lime-green: #00FF00;
+  --coral-pink: #FF7F50;
+  --sky-blue: #87CEEB;
+  --magenta: #FF00FF;
+  --canary-yellow: #FFFF99;
+  --turquoise: #40E0D0;
+  --vivid-red: #FF0000;
+  --neon-orange: #FFA343;
+  --fuschia-pink: #FF00AF;
+  --bright-cyan: #00FFFF;
+  --chartreuse: #7FFF00;
+  --deep-saffron: #FF9933;
+  --electric-purple: #CC00FF;
+}
+
+.button {
+  padding: 8px 25px;
+  border-radius: 30px;
+  background: #2D2D2D;
+}
+
+.button:hover {
+  color: red;
+  background: lime;
+}
+
 .text_h1 {
   font-family: 'Poppins';
   font-style: normal;
@@ -18,6 +52,10 @@
   font-size: 16px;
   line-height: 24px;
   color: #2D2D2D;
+}
+
+.text_link:hover {
+  color: var(--bright-cyan);
 }
 
 .text_button {
@@ -37,3 +75,4 @@
   line-height: 30px;
   color: rgba(0, 0, 0, 0.75);
 }
+
